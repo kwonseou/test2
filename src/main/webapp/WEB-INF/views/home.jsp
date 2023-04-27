@@ -15,7 +15,24 @@
 	<h3>이미 커밋한 내용을 취소하고 싶은 경우</h3>
 	<p>브렌치 초기화 - 특정 지점으로 완전히 초기화 한다.</p>
 	<p>revers commit - 특정 버전이 실행하기 전 상태로 되돌아가 새로운 커밋을 생성</p>
+<<<<<<< HEAD
 
+=======
+	<button>click</button>
+>>>>>>> 신규개발
+<p>PW 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</p>
 </body>
-<script></script>
+<script>
+	$("p").click(function(){
+		$(this).css('color','red')
+	});
+
+	var arr = [];
+	$('button').click(function(){
+		arr.push("data");
+	});
+	
+	
+	
+</script>
 </html>
